@@ -45,9 +45,8 @@ header nav ul li button {
 }
 
 section div h2 {
-  font-size: 45px;
+  font-size: 30px;
   padding-right: 20px;
-  color: var(--tertiary-color);
   text-align: right;
 }
 
@@ -72,4 +71,47 @@ section div h2 {
   width: 200px;
   height: 150px;
   flex: 2 70%;
+}
+.image-one {
+  margin-right: 30px;
+}
+.image-two {
+  margin-right: 30px;
+}
+
+.right-border {
+  border-right: 3px solid;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  flex: 2 70%;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+}
+
+footer ul li {
+  font-size: 20px;
+  padding: 0 10px;
+  margin: 0 20px;
+}
+footer h2 {
+  font-size: 30px;
+  padding-right: 20px;
+  text-align: right;
 }
