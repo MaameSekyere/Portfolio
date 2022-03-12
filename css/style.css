@@ -34,10 +34,42 @@ header nav ul li button {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  margin: 20px auto;
 }
+
 #about-me {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+section div h2 {
+  font-size: 45px;
+  padding-right: 20px;
+  color: var(--tertiary-color);
+  text-align: right;
+}
+
+.free-text {
+  flex: 2 70%;
+  padding: 10px 40px;
+}
+
+#main-page {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#work-section {
   flex: 1 12%;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.image-port {
+  width: 200px;
+  height: 150px;
+  flex: 2 70%;
 }
