@@ -65,9 +65,9 @@ div nav ul li button:hover {
   margin-bottom: 40px;
 }
 
-section div h2 {
+div h2 {
   font-size: 30px;
-  padding-right: 20px;
+  padding-right: 10px;
   text-align: right;
   color: blue;
 }
@@ -84,9 +84,9 @@ section div h2 {
 
 #sub-header {
   color: blue;
-  padding-right: 20px;
+  padding-right: 10px;
   text-align: right;
-  font-size: 30;
+  font-size: 30px;
 }
 .links {
   flex: 2 70%;
