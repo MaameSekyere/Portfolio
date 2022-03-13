@@ -4,10 +4,6 @@
   margin: 10px;
 }
 
-.container {
-  background-color: #def2fa;
-}
-
 .image {
   background-image: url(../css/images/image2.png);
   height: 250px;
@@ -53,12 +49,13 @@ div nav ul li button:hover {
   transform: translateY(-7px);
 }
 
-#info-section {
+#container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   margin: 20px auto;
+  background-color: #def2fa;
 }
 
 #about-me {
@@ -113,15 +110,15 @@ section div h2 {
   border-right: 2px solid black;
 }
 
-#contact-section {
-  padding-left: 30px;
-}
-
 footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+}
+
+#contact-section {
+  padding-left: 30px;
 }
 
 footer div {
@@ -132,7 +129,6 @@ footer div {
 
 footer ul {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
   text-decoration: none;
